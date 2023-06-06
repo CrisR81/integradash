@@ -102,6 +102,9 @@ padding-bottom: 10px;
 .zoinho {
     display: flex;
     flex-direction: column;
+    position: relative;
+
+
 }
 
  .botao_entrar:hover {
@@ -136,6 +139,9 @@ padding-bottom: 10px;
 
 
 }
+.Logo_Claro {
+    display: none;
+}
 
 /* .zoio {
 
@@ -147,10 +153,10 @@ padding-bottom: 10px;
 
     .zoio{
         cursor: pointer;
-        position: relative;
+        position: absolute;
         width: 30px;
         left: 265px;
-        bottom: 45px;
+        bottom: 15px;
       }
     
 /* .teste1 {
@@ -164,12 +170,9 @@ padding-bottom: 10px;
     width: 300px;
 }
 
-input[type=checkbok]{
-    width: 120px;
-}
 
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 950px) {
     .quadrado_branco {
         width:100% ;
 
@@ -177,4 +180,31 @@ input[type=checkbok]{
 
 .pagina_metade1 { 
     display: none;
+    
+}
+
+.quadrado_branco {
+    background-image: url(fundomobile\ 1.png);
+    background-size: 100vw 70%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.Logo_Integradash {
+    display: none;
+}
+
+.Logo_Claro {
+    display: flex;
+    max-width: 190px;
+    margin-top: 100px;
+
+}
+
+.alinhamento_input{ 
+
+margin-top: 80px;
+
+}
+
 }
