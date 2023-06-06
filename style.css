@@ -147,10 +147,10 @@ padding-bottom: 10px;
 
     .zoio{
         cursor: pointer;
-        position: absolute;
+        position: relative;
         width: 30px;
-        left: 495px;
-        margin-top: 5px;
+        left: 265px;
+        bottom: 45px;
       }
     
 /* .teste1 {
@@ -166,4 +166,15 @@ padding-bottom: 10px;
 
 input[type=checkbok]{
     width: 120px;
+}
+
+
+@media screen and (max-width: 870px) {
+    .quadrado_branco {
+        width:100% ;
+
+} 
+
+.pagina_metade1 { 
+    display: none;
 }
