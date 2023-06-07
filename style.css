@@ -223,14 +223,14 @@ margin-top: 80px;
 
 }
 
-.testefonte {
-display: none;
+/* TESTE PARA ALTERAR O TEXTO CONFORME DIMINUI A TELA */
 
+.testefonte {
+display: flex; /*none*/
 }
 
 .testefonte2{
-
-    display: flex;
+    display: none; /*flex*/
 }
 
 }
